@@ -1,9 +1,9 @@
 function updateObjectWithKeyAndValue(obj, key, value){
    
-   Object.assign({}, obj[key] = value);
+   Object.assign({}, obj[prop2] = value);
    return obj;
 }
- updateObjectWithKeyAndValue(obj, prop2, 2);
+ //updateObjectWithKeyAndValue(obj, prop2, 2);
 
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
