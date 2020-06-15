@@ -1,6 +1,6 @@
 function updateObjectWithKeyAndValue(obj, key, value){
    
-   Object.assign({}, obj[prop2] = value);
+   Object.assign({}, obj[prop2] = 2);
    return obj;
 }
  //updateObjectWithKeyAndValue(obj, prop2, 2);
